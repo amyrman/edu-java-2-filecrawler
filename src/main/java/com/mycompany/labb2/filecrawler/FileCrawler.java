@@ -5,12 +5,19 @@ import java.io.File;
 
 public class FileCrawler {
 
+/* Tasks:
+ * [x] 1. Starta med meddelande som säger åt användare att skriva in sökord
+ * [ ] 2. Om fil innehåller textsträng -> absolut sökväg skrivs ut på egen rad
+ * [ ] 3. Om fil inte innehåller sträng -> ingenting skrivs ut
+ * [ ] 4. Om fil eller katalog inte går att läsa -> error med fils/katalogs absoluta sökväg System.error
+ */
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Welcome to FileCrawler." + "\n" + "This program takes an input, in the form of a search term, which is used to find which files in your current as well as sub directories that matches the term." + "\n" + "Please enter term to search for:");
+        System.out.println("Welcome to FileCrawler." + "\n" + "Please enter term to search for:");
         String searchTerm = scan.nextLine();
-        String startDir;// startDir / root --> noder --> löv -- (binära sökträd)
+        String startDir; // startDir / root --> noder --> löv -- (binära sökträd)
         // ett "objekt" kan inte vara både mapp och fil samtidigt
     }
 
