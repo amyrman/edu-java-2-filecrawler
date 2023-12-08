@@ -1,23 +1,23 @@
 # Java filecrawler
 
 A Java assignment to create a file crawler utilizing:
-- [Java Stream API](https://www.baeldung.com/java-8-streams)
-- [Error Handling](https://www.baeldung.com/java-exceptions)
-- [Collections](https://www.baeldung.com/java-collections)
-- [Try-with-resources](https://www.baeldung.com/java-try-with-resources)
-- [JavaDocs](https://www.baeldung.com/javadoc)
+- <a href="https://www.baeldung.com/java-8-streams" target="_blank">Java Stream API</a>
+- <a href="https://www.baeldung.com/java-exceptions" target="_blank">Error Handling</a>
+- <a href="https://www.baeldung.com/java-collections" target="_blank">Collections</a>
+- <a href="https://www.baeldung.com/java-try-with-resources" target="_blank">Try-with-resources</a>
+- <a href="https://www.baeldung.com/javadoc" target="_blank">JavaDocs</a>
 
-The [`FileCrawler`](./src/main/java/com/example/FileCrawler.java) class uses the following Java classes:
+The <a href="./src/main/java/com/example/FileCrawler.java" target="_blank">`FileCrawler`</a> class uses the following Java classes:
 
-- [`ArrayList`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
-- [`List`](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
-- [`Scanner`](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
-- [`Files`](https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html)
-- [`Path`](https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html)
-- [`Paths`](https://docs.oracle.com/javase/8/docs/api/java/nio/file/Paths.html)
-- [`Stream`](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
-- [`StandardCharsets`](https://docs.oracle.com/javase/8/docs/api/java/nio/charset/StandardCharsets.html)
-- [`IOException`](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html" target="_blank">`ArrayList`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html" target="_blank">`List`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html" target="_blank">`Scanner`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html" target="_blank">`Files`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html" target="_blank">`Path`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Paths.html" target="_blank">`Paths`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html" target="_blank">`Stream`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/charset/StandardCharsets.html" target="_blank">`StandardCharsets`</a>
+- <a href="https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html" target="_blank">`IOException`</a>
 
 ## Getting Started
 
@@ -64,6 +64,10 @@ You can run the program with the following command:
     ```
 
 This will run the program in quiet mode, where it only outputs errors and warnings.
+
+## Changelog
+
+See the [CHANGELOG.md](CHANGELOG.md) file for details.
 
 ## License
 

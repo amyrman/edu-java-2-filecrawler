@@ -1,9 +1,8 @@
-## [1.0.0] - 2022-02-01
+## [1.0.0] - 2023-12-08
 ### Added
-- Some IOExceptions
+- More IOException handling
 - Maven JavaDocs plugin
 - Maven Exec plugin
-- 
 
 ### Changed
 - Updated imports to use NIO instead of IO
