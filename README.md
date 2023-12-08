@@ -21,8 +21,6 @@ The [`FileCrawler`](./src/main/java/com/example/FileCrawler.java) class uses the
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 You need to have [Maven](https://maven.apache.org/download.cgi) installed on your machine.
