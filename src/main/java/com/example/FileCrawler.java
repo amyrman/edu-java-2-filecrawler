@@ -73,8 +73,19 @@ public class FileCrawler {
 
   /**
    * Runs the file crawler to search for files that contain the search string. The
-   * search
-   * is performed in the current directory and its subdirectories.
+   * search is performed in the current directory and its subdirectories.
+   * <p>
+   * This method uses the Files.walk method to traverse the file tree starting
+   * from the current directory.
+   * Files.walk returns a Stream of Path objects, each representing a file or
+   * directory in the file tree.
+   * <p>
+   * A try-with-resources statement is used to ensure that the Stream 'paths' is
+   * closed automatically after we're done using it. This is important because
+   * Streams
+   * implement AutoCloseable, which means they hold resources that need to be
+   * closed to
+   * prevent resource leaks.
    *
    * @param searchString the search string to look for
    * @return a list of files that contain the search string
